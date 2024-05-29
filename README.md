@@ -1,10 +1,15 @@
 # HillCipherEncrypt
-I created a Python program that takes two text files-  a key file and a plain text file, and outputs an encrypted text file.
 
-To use this program input the code into the IDE of your choice
+This repository contains a Python program that performs encryption using the Hill cipher algorithm. The program takes two text files as input: a key file and a plain text file, and outputs an encrypted text file.
 
-Execute using the following commands in shell:
+## How to Use
 
-"Python3 pa01.py key.txt plaintext.txt"
+1. Clone the repository or download the code.
+2. Place your key file (e.g., `key.txt`) and plain text file (e.g., `plaintext.txt`) in the same directory as the Python script.
+3. Open your terminal or command prompt and navigate to the directory containing the script and the text files.
 
-I created this progam for my security in computing class... Enjoy!
+### Running the Program
+
+Execute the following command in the terminal:
+
+python3 pa01.py key.txt plaintext.txt
